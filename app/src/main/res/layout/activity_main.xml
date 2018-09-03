@@ -22,6 +22,11 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <!-- TODO (04) Replace the titleFragment with the navHostFragment
+                 Change the ID to myNavHostFragment
+                 Change the name = androidx.navigation.fragment.NavHostFragment -->
+            <!-- TODO (05) Add app:navGraph pointing to the @navigation/navigation resource -->
+            <!-- TODO (06) Add app:defaultNavHost = true -->
             <fragment
                 android:id="@+id/titleFragment"
                 android:name="com.example.android.navigation.TitleFragment"
